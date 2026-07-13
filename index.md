@@ -2,7 +2,7 @@
 
 **Effective date: July 13, 2026**
 
-Bloom (also known by its project name, SuiCura) is a mental-wellness app for teens. This policy explains, in plain language, what data the app handles, where that data lives, and how to delete it.
+Bloom is a mental-wellness app for teens. This policy explains, in plain language, what data the app handles, where that data lives, and how to delete it.
 
 The short version: **everything you put into Bloom stays on your device. We don't collect it, we can't see it, and we never send it anywhere.**
 
@@ -54,7 +54,7 @@ Bloom only requests a permission at the moment a feature needs it, and every fea
 
 A few features hand you off to things outside Bloom, always at your explicit request:
 
-- **External websites** — resource links and the built-in "find a therapist" pages (findtreatment.gov and psychologytoday.com) load those organizations' websites. Like any website, they can see your IP address and use their own cookies. Their privacy policies apply to what happens there.
+- **External websites** — resource links open those organizations' websites. Like any website, they can see your IP address and use their own cookies. Their privacy policies apply to what happens there.
 - **Calling, texting, and emailing** — tapping a call/text/email button for a crisis line or trusted contact opens your phone, Messages, or mail app. Bloom just passes the number or address along.
 - **Sharing a resource** — the share button sends the resource's name and contact info through the iOS share sheet to whatever app you choose.
 
