@@ -86,4 +86,4 @@ If Bloom's data practices ever change — for example, if a future feature needs
 
 ## Contact
 
-Questions about privacy? Email us at **david.fridshtand@gmail.com**.
+Questions about privacy? Email us at **bloom.app.inquiries@gmail.com**.
