@@ -1,6 +1,6 @@
 # Bloom Privacy Policy
 
-**Effective date: July 7, 2026**
+**Effective date: July 13, 2026**
 
 Bloom (also known by its project name, SuiCura) is a mental-wellness app for teens. This policy explains, in plain language, what data the app handles, where that data lives, and how to delete it.
 
@@ -17,7 +17,7 @@ Bloom stores the following **only on your device**:
 - **Affirmations** you save, favorite, or accept from suggestions
 - **Goals** and their progress
 - **Trusted contacts** — names, relationships, phone numbers, email addresses, and notes you enter or pick from your contacts
-- **Saved resources** and your thumbs-up/down feedback on suggestions
+- **Saved resources** and your star ratings on exercises and suggestions, which the app uses on-device to personalize future recommendations
 - **Topics detected in your notes** (like "stress" or "sleep") so the app can spot patterns and suggest resources
 - **Your settings** — age group, school, theme, reminder times, and similar preferences
 
@@ -36,9 +36,19 @@ None of this is uploaded, synced, backed up by us, or shared with anyone. We hav
 Bloom does some smart things with what you write, and all of it happens locally using Apple's on-device frameworks:
 
 - **Understanding your notes** — keyword matching, sentence meaning (embeddings), and sentiment analysis run entirely on your device to suggest relevant resources.
-- **Crisis detection** — if what you write suggests you may be in crisis, Bloom shows crisis resources. This analysis runs entirely on your device. For journal entries it is optional and off by default (Settings → "Analyze journal entries for crisis detection"); for mood check-in notes it is always on, because your safety comes first. Bloom is not therapy or counseling, and detection results never leave your phone.
+- **Crisis detection** — if what you write suggests you may be in crisis, Bloom shows crisis resources. This runs entirely on your device using a fixed, deterministic set of word and phrase rules — the same input always produces the same result, and no learning or profiling is involved. For journal entries it is optional and off by default (Settings → "Analyze journal entries for crisis detection"); for mood check-in notes it is always on, because your safety comes first. Bloom is not therapy or counseling, and detection results never leave your phone.
 - **Voice transcription** — when you use voice journaling, your speech is transcribed **on your device** by iOS. Your voice audio is never sent to any server, including Apple's. On the rare device that can't transcribe locally, voice journaling is simply unavailable — we never fall back to a server.
 - **Face ID / Touch ID lock** — handled entirely by iOS. Bloom only learns "unlocked or not"; it never sees or stores biometric data.
+
+## Permissions we ask for
+
+Bloom only requests a permission at the moment a feature needs it, and every feature still works without granting it (aside from the feature itself). iOS controls these, and you can change them anytime in iOS Settings.
+
+- **Microphone** — to record your voice for voice journaling.
+- **Speech recognition** — to transcribe that voice into text, on your device.
+- **Face ID / Touch ID** — to optionally lock the app.
+- **Notifications** — to send the reminders described below.
+- **Contacts** — only if you choose to pick a trusted contact from your address book. Bloom uses Apple's contact picker, so it never reads your contacts; iOS simply hands back the one person you select.
 
 ## When you leave the app
 
